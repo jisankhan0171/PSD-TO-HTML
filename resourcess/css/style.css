@@ -31,7 +31,7 @@ h1,h2,h3,h4,h5,h6{
     display: inline-block;
     border-bottom: 4px solid #000;
 }
-.survicess,.team,.skill,.protfolio{
+.survicess,.team,.skill,.protfolio,.testimonial{
     padding: 10rem 0;
 }
 h2{
@@ -285,9 +285,56 @@ svg.fourth text {
     
 }
 /*=========== End Protfolio Section ===========*/
-
-
-
+#testimonial{
+    background: #d74680;
+    color: #fff;
+}
+#testimonial h2{
+    color: #fff;
+}
+#testimonial .tittle-desc{
+    color: #fff;
+}
+#testimonial h2::after{
+    background: #aa1953;
+}
+#testimonial .box{
+    display: flex;
+}
+#testimonial .x{
+    margin-bottom: 10rem;
+}
+#testimonial .left-img{
+    
+}
+#testimonial img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+#testimonial .right-content{
+    padding-left: 4rem;
+}
+#testimonial .right-content p{
+    font-size: 1.8rem;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 1.6rem;
+    color: #efeded;
+    letter-spacing: 1px;
+}
+#testimonial .right-content h6{
+    font-size: 2.4rem;
+    font-weight: 600;
+   
+}
+#testimonial .right-content span{
+   color: #fac996;
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+   
+}
 
 
 
