@@ -1,0 +1,298 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.6rem;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+   text-decoration: none;
+    color: #fff !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+/*==================== Start Global Styling  ===========================*/
+.btn{
+    font-size: 1.6rem;
+    background: crimson;
+    color: #fff;
+    padding: 1.5rem 3.5rem;
+    display: inline-block;
+    border-bottom: 4px solid #000;
+}
+.survicess,.team,.skill,.protfolio{
+    padding: 10rem 0;
+}
+h2{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #3c4761;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+h2::after{
+    content: '';
+    display: block;
+    width: 15rem;
+    height: .4rem;
+    background: #3c4761;
+    margin: 1.8rem auto;
+}
+.tittle-desc{
+    color: #3c4761;
+    font-size: 1.8rem;
+    margin-top: 2.5rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+    text-align: center;
+    padding: 0 5rem;
+}
+.box{
+   
+}
+.box-content{
+    padding: 0 1rem;
+}
+.box-content h3{
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    color: #3c4761;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+.box-content p{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #3c4761;
+}
+/*===================== End Global Styling  ==============================*/
+
+/*=========== Home Section ===========*/
+
+#home{
+    height: 80vh;
+    background-image: linear-gradient(to bottom right,rgba(135, 80, 156,.7),rgba(135,80,156,.4)),url(../img/bg-5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*-- Nav --*/
+nav{
+  padding: 2.5rem 0;  
+}
+#nav-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    padding: .7rem;
+    cursor: pointer;
+}
+.main-nav{
+    margin: 0;
+}
+.main-nav li{
+    margin-left: 2rem;
+    display: inline-block;
+}
+.main-nav li a{
+    color: #fff;
+    font-size: 1.6rem;
+    padding: .8rem 2rem;
+    border-radius: 3px;
+    display: inline-block;
+    transition: .3s;
+    text-transform: uppercase;
+}
+.main-nav li a:hover{
+     background: #643a79;
+}
+.main-nav li a.active{
+     background: #643a79;
+}
+/*-- Hero --*/
+.hero{
+   margin-top: 15rem;
+   text-align: center;
+}
+.hero h1{
+    font-size: 4rem;
+    color: #fff;
+    padding: 0 5rem;
+    line-height: 1.4;   
+}
+.hero .btn-hero{
+    background: rgb(235, 125, 75);
+    border-radius: 4px;
+    padding: 1.5rem 6rem;
+    text-transform: uppercase;
+    border-bottom: 4px solid #c86a40;
+    margin-top: 5rem;
+}
+
+/*=========== Survicess Section ===========*/
+#survicess{
+    background: #17c2a4;
+    text-align: center;
+    color: #fff;
+}
+.row-margin{
+    margin-top: 10rem;
+}
+#survicess h2{
+    color: #fff;
+}
+#survicess h2::after{
+    background: #14a58c;
+}
+#survicess .box-content h3,#survicess .box-content p{
+    color: #fff;
+}
+#survicess .tittle-desc{
+    color: #fff;
+}
+#survicess .img-thumb{
+    margin-bottom: 5rem;
+    
+}
+#survicess img{
+    height: 13rem;
+}
+/*=========== End Survicess Section ===========*/
+
+/*=========== Start Team Section ===========*/
+#team{
+    background: #e7f1f8;
+    text-align: center
+}
+#team h2::after{
+   background: #c8d9e5; 
+}
+#team .img-thumb{
+    margin-bottom: 2rem;
+}
+#team img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 16px rgba(0,0,0,.1);
+}
+#team .box-content h4{
+    color: #79d0ee;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+/*=========== End Team Section ===========*/
+
+/*=========== Start Skill Section ===========*/
+#skill{
+   text-align: center; 
+}
+#skill h2::after{
+    background: #dfe8ed;
+}
+/*first*/
+svg.first circle {
+    stroke: #80b549; 
+}
+svg.first text {
+  fill: #111;
+  text-anchor: middle;
+}
+/*two*/
+svg.two circle {
+    stroke: #ad1ea2; 
+}
+svg.two text {
+  fill: #111;
+  text-anchor: middle;
+}
+/*third*/
+svg.third circle {
+    stroke: #4b2abc; 
+}
+svg.third text {
+  fill: #111;
+  text-anchor: middle;
+}
+/*fourth*/
+svg.fourth circle {
+    stroke: #2696aa; 
+}
+svg.fourth text {
+  fill: #111;
+  text-anchor: middle;
+}
+/*=========== End Skill Section ===========*/
+
+
+/*=========== Start Protfolio Section ===========*/
+#protfolio{
+    background: #ffdd99;
+}
+#protfolio h2::after{
+    background: #e5c37f;
+}
+#protfolio .btn-filters{
+    width: 100%;
+    text-align: center;
+    margin-top: 3.8rem;
+}
+#protfolio .btn-filters .tabbtn{
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    background: #ebc985;
+    color: #666;
+    border: none;
+    font-weight: 600;
+    margin: 0 .5rem;
+}
+#protfolio img{
+    width: 100%;
+}
+#protfolio .box{
+    text-align: center;
+    margin-bottom: 6rem;
+}
+.img-tittle{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+}
+#protfolio .col-12{
+    text-align: center;
+}
+#protfolio .col-12 .read-more{
+    padding: 1.3rem 5rem;
+    background: #17c2a4;
+    border-bottom: .4rem solid #109880;
+    
+}
+/*=========== End Protfolio Section ===========*/
+
+
+
+
+
+
+
+
+
+
+
