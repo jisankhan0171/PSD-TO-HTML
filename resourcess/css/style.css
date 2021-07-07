@@ -31,7 +31,7 @@ h1,h2,h3,h4,h5,h6{
     display: inline-block;
     border-bottom: 4px solid #000;
 }
-.survicess,.team,.skill,.protfolio,.testimonial{
+.survicess,.team,.skill,.protfolio,.testimonial,.contact{
     padding: 10rem 0;
 }
 h2{
@@ -85,13 +85,14 @@ h2::after{
 
 #home{
     height: 80vh;
-    background-image: linear-gradient(to bottom right,rgba(135, 80, 156,.7),rgba(135,80,156,.4)),url(../img/bg-5.jpg);
+    background: #87509c;
     background-size: cover;
     background-position: center;
 }
 /*-- Nav --*/
 nav{
-  padding: 2.5rem 0;  
+  padding: 2.5rem 0;
+  
 }
 #nav-box{
     display: flex;
@@ -106,23 +107,23 @@ nav{
     margin: 0;
 }
 .main-nav li{
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     display: inline-block;
 }
 .main-nav li a{
     color: #fff;
-    font-size: 1.6rem;
-    padding: .8rem 2rem;
+    font-size: 1.5rem;
+    padding: .8rem 1.5rem;
     border-radius: 3px;
     display: inline-block;
     transition: .3s;
     text-transform: uppercase;
 }
 .main-nav li a:hover{
-     background: #643a79;
+     color: #e3e8e3 !important;
 }
 .main-nav li a.active{
-     background: #643a79;
+     
 }
 /*-- Hero --*/
 .hero{
@@ -335,6 +336,89 @@ svg.fourth text {
     text-transform: uppercase;
    
 }
+
+/*=========== Start Contact Section ===========*/
+#contact{
+    background: #3c5499;
+    color: #fff;
+}
+#contact h2 {
+    color: #fff;
+}
+#contact h2::after{
+    background: #273a71;
+}
+#contact .tittle-desc {
+    color: #fff;
+}
+#contact .row-margin{
+    margin-top: 8rem;
+}
+#contact input:focus{
+    outline: none !important;
+    border: none !important;
+    
+}
+
+#contact input{
+    padding: 2.5rem;
+    font-size: 1.8rem;
+    outline: none;
+    background: #273a71;
+    border: none;
+    border-radius: .3rem;
+    color: #fff;
+}
+#comment{
+    background: #273a71;
+    border: none;
+    padding: 2.5rem;
+    font-size: 1.8rem;
+    padding-top: 1.2rem;
+    margin-top: 1.9rem;
+    color: #fff;
+}
+#contact .submit-btn{
+    background: #30bae7;
+    border: 0;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: 3rem;
+}
+/*=========== End Contact Section ===========*/
+
+/*=========== Start Footer Section ===========*/
+footer{
+    background: #344b8e;
+    padding: 2rem 0;
+}
+footer a{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin: .5rem 2rem;
+    padding: .5rem;
+}
+/*=========== End Footer Section ===========*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
